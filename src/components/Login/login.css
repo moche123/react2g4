@@ -1,0 +1,7 @@
+.login{
+    /*vh: Viewport Height */
+    height: 90vh;  
+    display: flex;
+    flex-direction: column; /* MIDO DE ARRIBA HACIA ABAJO*/
+    justify-content: center; /* VERTICALMENTE AL MEDIO*/
+}

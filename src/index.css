@@ -1,0 +1,87 @@
+:root{
+    background-color: rgb(10, 57 , 158);
+    color: aliceblue;
+}
+
+.superiorMessage{
+    color: #fff;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-error {
+    padding: 0;
+    color: aqua;
+}
+
+.text-error > p{
+    margin: 0px !important;
+    font-weight: 500;
+}
+
+.display-block{
+    display: block;
+}
+
+.mt-2{
+    margin-top: 2rem;
+}
+
+.btnLogout{
+    background-color: #0b0542;
+}
+
+input[type=submit],.btnLogout{
+
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+input[type=submit]{
+
+    background-color: #EA4C89;
+}
+
+
+@media(max-width: 425px){
+    .container{
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+@media(max-width: 768px){
+    .container{
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+}
+
+/* @media(max-width: 1440px){
+    .container{
+        padding-right: 10rem;
+        padding-left: 10rem;
+    }
+} */
